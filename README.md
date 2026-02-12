@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo analizar la **relación entre la intensidad de
 
 El proyecto está organizado de manera modular para diferenciar claramente entre datos crudos, scripts de procesamiento y resultados.
 
-```mermaid
+```text
 graph TD
 Bilbao_Ruido_Trafico/
 │
