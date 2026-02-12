@@ -4,6 +4,8 @@
 .Ruserdata
 .Rproj.user/
 .Rhistory
+.RDataTmp1
+.RDataTmp
 
 # Datos pesados
 data/raw/*
