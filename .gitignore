@@ -1,0 +1,42 @@
+# --- R SYSTEM FILES (Basura de R) ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rhistory
+
+# Datos pesados
+data/raw/*
+data/processed/*
+data/processed/rds/*
+data/processed/csv/*
+
+# Pero mantenemos las carpetas raíces
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/rds/.gitkeep
+!data/processed/csv/.gitkeep
+
+# Tipos de archivos de datos específicos 
+*.rds
+*.Rds
+*.csv
+*.xlsx
+*.xls
+
+#Power BI.
+#*.pbix
+
+#Logs
+logs/*
+!logs/.gitkeep
+
+# Configuración
+# config/config.R
+
+# Sistema operativo y caché
+.DS_Store
+Thumbs.db
+
+#Plots
+# results/plots/*

@@ -48,3 +48,28 @@ boxplot(df_Ubicacion$longitude, main="Outliers Longitud")
 
 
 
+
+
+
+# Carga las librerías si no están
+library(sf)
+library(dplyr)
+library(here)
+
+# Lee los archivos brutos
+trafico <- readRDS(here("data/raw/trafico_bilbao.rds"))
+ubicacion <- readRDS(here("data/raw/sonometro_ubicacion.rds"))
+mediciones <- readRDS(here("data/raw/sonometro_mediciones.rds"))
+
+# --- LO QUE NECESITO QUE ME PEGUES ---
+print("--- ESTRUCTURA TRÁFICO ---")
+glimpse(trafico)
+
+print("--- ESTRUCTURA UBICACIÓN ---")
+glimpse(ubicacion)
+
+print("--- ESTRUCTURA MEDICIONES ---")
+glimpse(mediciones)
+
+trafico
+mediciones
