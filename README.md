@@ -13,7 +13,7 @@ El proyecto está organizado de manera modular para diferenciar claramente entre
 
 ```mermaid
 graph TD
-    Bilbao_Ruido_Trafico/
+Bilbao_Ruido_Trafico/
 │
 ├── config/                      # ⚙️ CONFIGURACIÓN CENTRAL
 │   └── config.R                 # - El "cerebro" organizativo.
